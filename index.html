@@ -3,23 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISO品質管理認證講師 - 徐華懇Kay Hsu </title>
+    <title>ISO品質管理認證講師 - 徐華懇 Kay Hsu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* 頁面整體質感設定 */
-        body { font-family: "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif; background-color: #08062b; }
-        .hero-section { background-color: #f3f9fe; padding: 60px 0; border-bottom: 3px solid #0056b3; }
-        
-        /* 圖片樣式：建議準備一張去背頭像 (.png) */
-        .instructor-img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
-        
-        /* 核心資歷強調區 */
-        .bio-subtitle { color: #0056b3; font-weight: bold; border-left: 5px solid #0056b3; padding-left: 10px; margin-top: 25px; margin-bottom: 15px; }
-        .red-highlight { color: #c00; font-weight: bold; }
-        
-        /* 文字質感 */
-        .desc-text { color: #333; line-height: 1.8; font-size: 1.05rem; }
-        .footer { background-color: #343a40; color: #fff; text-align: center; padding: 25px 0; margin-top: 60px; }
+        body { 
+            font-family: "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif; 
+            background-color: #ffffff; 
+        }
+
+        /* 頂部 Hero Section：設定為深藍色 */
+        .hero-section { 
+            background-color: #08062b; 
+            padding: 80px 0; 
+            border-bottom: 5px solid #0056b3; 
+            color: #ffffff;
+        }
+
+        /* 圖片樣式 */
+        .instructor-img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+            /* 若圖片有去背，可加上輕微陰影增加立體感 */
+            filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.3));
+        }
+
+        /* 文字顏色優化 */
+        .hero-section h1 {
+            color: #ffffff;
+        }
+        .hero-section .lead {
+            color: #e0e0e0;
+        }
+
+        /* 核心資歷強調區 - 在深色背景下改為亮黃色更醒目 */
+        .highlight-yellow { 
+            color: #ffcc00; 
+            font-weight: bold; 
+        }
+
+        .bio-subtitle { 
+            color: #0056b3; 
+            font-weight: bold; 
+            border-left: 5px solid #0056b3; 
+            padding-left: 10px; 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+        }
+
+        /* 內容區文字質感 */
+        .desc-text { 
+            color: #333; 
+            line-height: 1.8; 
+            font-size: 1.05rem; 
+        }
+
+        .footer { 
+            background-color: #1a1a1a; 
+            color: #fff; 
+            text-align: center; 
+            padding: 25px 0; 
+            margin-top: 60px; 
+        }
+
+        /* 按鈕樣式微調 */
+        .btn-primary {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .btn-outline-light:hover {
+            color: #08062b;
+        }
     </style>
 </head>
 <body>
@@ -39,14 +95,14 @@
             </div>
 
             <div class="col-lg-8">
-                <h1 class="display-5 fw-bold text-dark mt-4">講師簡介 - 徐華懇 Kay Hsu</h1>
-                <p class="lead mt-3 fs-4" style="color: #444;">
-                    <span class="red-highlight">18年</span>半導體實務背景 &times; <span class="red-highlight">第三方驗證</span>視角<br>
+                <h1 class="display-5 fw-bold mt-4">講師簡介 - 徐華懇 Kay Hsu</h1>
+                <p class="lead mt-3 fs-4">
+                    <span class="highlight-yellow">18年</span> 半導體實務背景 &times; <span class="highlight-yellow">第三方驗證</span> 視角<br>
                     精準解析車用品質核心工具
                 </p>
                 <div class="mt-4">
-                    <a href="mailto:ardency1204@gmail.com" class="btn btn-primary btn-lg skill-badge">立即預約諮詢</a>
-                    <a href="#about" class="btn btn-outline-secondary btn-lg skill-badge">查看詳細專長</a>
+                    <a href="mailto:ardency1204@gmail.com" class="btn btn-primary btn-lg px-4 me-md-2">立即預約諮詢</a>
+                    <a href="#about" class="btn btn-outline-light btn-lg px-4">查看詳細專長</a>
                 </div>
             </div>
 
@@ -70,8 +126,8 @@
             <h3 class="bio-subtitle">專業價值</h3>
             <div class="desc-text ps-2">
                 <p>✓ <strong>半導體產業鏈對接：</strong><br>教學案例涵蓋半導體、電子電機產業，協助企業建立高標品質體系。</p>
-                <p>✓ <strong>稽核員視角解析：</strong><br>以「<span class="red-highlight">實務運作</span>」為導向，拆解六大工具在工作應用中的常見缺失與盲點。</p>
-                <p>✓ <strong>實績口碑保證：</strong><br>累積 <span class="red-highlight">50+</span> 場企業內訓、服務<span class="red-highlight">數千名</span>學員，將艱澀規範轉化為落地操作的教學能力。</p>
+                <p>✓ <strong>稽核員視角解析：</strong><br>以「<strong>實務運作</strong>」為導向，拆解六大工具在工作應用中的常見缺失與盲點。</p>
+                <p>✓ <strong>實績口碑保證：</strong><br>累積 <strong>50+</strong> 場企業內訓、服務<strong>數千名</strong>學員，將艱澀規範轉化為落地操作的教學能力。</p>
             </div>
         </div>
         
@@ -85,5 +141,6 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
